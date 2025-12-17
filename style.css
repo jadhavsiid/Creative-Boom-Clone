@@ -1,4 +1,4 @@
-/*& Universal CSS */
+/* & Universal CSS */
 * {
   margin: 0;
   padding: 0;
@@ -9,56 +9,126 @@ body {
   height: 100vh;
   font-family: "ABC Diatype";
 }
-/* & navbar */
-.nav-container {
+/* & Navbar */
+.navbar {
+  padding: 1.5rem 1rem;
+  margin: 0 1.5rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 2rem 0 1rem 0;
-  margin: 0 2rem;
+  align-items: center;
 }
-.logo-div img {
-  width: 230px;
-}
-.right-content-div {
+.right-nav-elements {
   display: flex;
   gap: 1.5rem;
   align-items: center;
 }
-.right-content-div a {
+.right-nav-elements a {
   font-size: 1.2rem;
   text-decoration: none;
   color: #000000;
-  font-weight: 500;
 }
-.right-content-div i {
+.right-nav-elements a:hover {
+  text-decoration: underline 2px solid;
+}
+.right-nav-elements i {
   font-size: 1.2rem;
 }
-.right-content-div i:hover {
+.right-nav-elements i:hover {
   cursor: pointer;
 }
 /* & Navlinks */
 .nav-links {
   display: flex;
   gap: 1.5rem;
-  padding: 1rem 2rem;
-}
-.nav-links a:first-child {
-  text-decoration: underline;
-}
-.nav-links a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color: #000000;
-  font-weight: 600;
-  letter-spacing: 1px;
+  padding: 1rem 2.5rem;
+  align-items: center;
   position: sticky;
   top: 0;
   left: 0;
+  background-color: #ffffff;
 }
-.nav-links .last-two a {
+.nav-links a {
+  color: #000000;
   text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "ABC Diatype";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.nav-links :first-child {
+  text-decoration: underline 2px solid;
 }
 .nav-links a:hover {
+  text-decoration: underline 2px solid;
+}
+.nav-links .last-two {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.last-two :first-child {
+  text-decoration: none;
+}
+/* & Main Hero */
+.main-hero {
+  width: 100%;
+  background-color: #fbf7ef;
+}
+.main-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.5rem;
+}
+.content-container {
+  margin: 1rem 1rem 2rem 1rem;
+}
+.tags {
+  margin: 1rem 0;
+}
+.tags a {
+  text-decoration: none;
+  margin: 0 0.2rem;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+}
+.tags a:hover {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+}
+.item-desc {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.item-desc:hover {
   text-decoration: underline;
+}
+p#date {
+  margin-top: 0.5rem;
+}
+.middle-img {
+  display: flex;
+  justify-content: center;
+}
+a#middle-item-desc {
+  font-size: 2.3rem;
+}
+.info-wrapper {
+  padding: 0.5rem;
+}
+.right-content-container {
+  margin: 1rem 1rem 2rem 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.2rem;
+}
+#right-item-desc {
+  font-size: 1rem;
 }

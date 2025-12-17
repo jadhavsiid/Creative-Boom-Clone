@@ -3,58 +3,212 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- & Title -->
     <title>
       Art & Design Magazine for the Creative Industries | Creative Boom
     </title>
+    <!-- & Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
     <!-- & Favicon -->
     <link
       rel="shortcut icon"
-      href="./images-folder/Favicon.jpeg"
+      href="./images-folder/Favicon.png"
       type="image/x-icon"
     />
-    <!-- & CSS Link -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- & Fontawesome CDN -->
-    <script
-      src="https://kit.fontawesome.com/ee2093fa90.js"
-      crossorigin="anonymous"
-    ></script>
     <!-- & Typeface import -->
     <link
       href="https://db.onlinewebfonts.com/c/f05bbbfac1257664fc69ba21f8451b57?family=ABC Diatype"
       rel="stylesheet"
     />
+    <!-- & Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/ee2093fa90.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-    <nav>
-      <div class="nav-container">
-        <div class="logo-div">
-          <a href="#"><img src="./images-folder/logo.png" alt="logo" /></a>
+  <body oncontextmenu="return false;">
+    <!-- & Navbar -->
+    <div class="navbar">
+      <img src="./images-folder/logo.png" alt="logo" width="220px" />
+      <div class="right-nav-elements">
+        <a href="#">Subsribe</a>
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <i class="fa-solid fa-bars" style="color: #000000"></i>
+      </div>
+    </div>
+    <!-- & Navlinks -->
+    <div class="nav-links">
+      <a href="#">Latest</a>
+      <a href="#">News</a>
+      <a href="#">Inspiration</a>
+      <a href="#">Insight</a>
+      <a href="#">Tips</a>
+      <a href="#">Resources</a>
+      <a href="#">Podcast</a>
+      <a href="#">Community</a>
+      <div class="last-two">
+        <a href="#">Topics</a>
+        <i class="fa-solid fa-angle-down" style="color: #000000"></i>
+      </div>
+      <div class="last-two">
+        <a href="#">Info</a>
+        <i class="fa-solid fa-angle-down" style="color: #000000"></i>
+      </div>
+    </div>
+    <!-- & Main Hero -->
+    <div class="main-hero">
+      <div class="main-grid-container">
+        <!-- & Left-sided -->
+        <div class="grid-items-main" id="left-sided">
+          <!-- & Left-sided First -->
+
+          <div id="left-sided-first" class="content-container">
+            <img
+              src="./images-folder/Hero-left-first-img.jpg"
+              alt="Hero-left-first-img"
+              width="350px"
+            />
+            <div class="info-wrapper">
+              <div class="tags">
+                <a href="#">Resources</a>
+                <a href="#">Books</a>
+              </div>
+              <a href="#" class="item-desc"
+                >Hybrid distils 25 years of curiosity, craft and cultural
+                obsession into debut book</a
+              >
+              <p id="date">16 December 2025</p>
+            </div>
+          </div>
+          <!-- & Left-sided Second -->
+          <div id="left-sided-second" class="content-container">
+            <img
+              src="./images-folder/Hero-left-second-img.jpg"
+              alt="Hero-left-second-img"
+              width="350px"
+            />
+            <div class="info-wrapper">
+              <div class="tags">
+                <a href="#">Inspiration</a>
+                <a href="#">Art & Culture</a>
+              </div>
+              <a href="#" class="item-desc"
+                >Luciano Castelli on restlessness, ritual and why he 'can't
+                stop' making art</a
+              >
+              <p id="date">16 December 2025</p>
+            </div>
+          </div>
         </div>
-        <div class="right-content-div">
-          <a href="#">Subscribe</a>
-          <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
-          <i class="fa-solid fa-bars" style="color: #000000"></i>
+        <!-- & Middle -->
+        <div class="grid-items-main" id="middle">
+          <div class="content-container">
+            <div class="middle-img">
+              <img
+                src="./images-folder/Hero-middle-img.png"
+                alt="Hero-middle-img"
+                width="655px"
+              />
+            </div>
+            <div class="info-wrapper">
+              <div class="tags">
+                <a href="#">News</a>
+                <a href="#">Publishing</a>
+              </div>
+              <a href="#" class="item-desc" id="middle-item-desc"
+                >GIRLFANS launches landmark England edition celebrating seven
+                years of women's fan culture</a
+              >
+              <p id="date">16 December 2025</p>
+            </div>
+          </div>
+        </div>
+        <!-- & right-sided -->
+        <div class="grid-items-main" id="right-sided">
+          <!-- & right-sided first-->
+          <div class="right-content-container" id="right-sided-first">
+            <div class="article-img">
+              <img
+                src="./images-folder/Hero-right-first.jpg"
+                alt="Hero-right-first"
+                width="120px"
+              />
+            </div>
+            <div class="art-det">
+              <div class="tags">
+                <a href="#">Resources</a>
+              </div>
+              <a href="#" class="item-desc" id="right-item-desc"
+                >Camping Flash captures the curious, intimate world of French
+                campsites in all its glory</a
+              >
+              <p id="date">15 December 2025</p>
+            </div>
+          </div>
+          <hr />
+          <!-- & right-sided second-->
+          <div class="right-content-container" id="right-sided-first">
+            <div class="article-img">
+              <img
+                src="./images-folder/Hero-right-second.jpg"
+                alt="Hero-right-second"
+                width="120px"
+              />
+            </div>
+            <div class="art-det">
+              <div class="tags">
+                <a href="#">Inspiration</a>
+              </div>
+              <a href="#" class="item-desc" id="right-item-desc"
+                >How Franki Domino is creating a new aesthetic universe using
+                AI</a
+              >
+              <p id="date">15 December 2025</p>
+            </div>
+          </div>
+          <hr />
+          <!-- & right-sided third-->
+          <div class="right-content-container" id="right-sided-third">
+            <div class="article-img">
+              <img
+                src="./images-folder/Hero-right-third.jpg"
+                alt="Hero-right-third"
+                width="120px"
+              />
+            </div>
+            <div class="art-det">
+              <div class="tags">
+                <a href="#">Resources</a>
+              </div>
+              <a href="#" class="item-desc" id="right-item-desc"
+                >The best new typefaces for Deceme=ber 2025</a
+              >
+              <p id="date">15 December 2025</p>
+            </div>
+          </div>
+          <hr />
+          <!-- & right-sided fourth-->
+          <div class="right-content-container" id="right-sided-fourth">
+            <div class="article-img">
+              <img
+                src="./images-folder/Hero-right-fourth.jpg"
+                alt="Hero-right-fourth"
+                width="120px"
+              />
+            </div>
+            <div class="art-det">
+              <div class="tags">
+                <a href="#">News</a>
+              </div>
+              <a href="#" class="item-desc" id="right-item-desc"
+                >No Fixed Address desingns a world-first tool to recognise and
+                protect urban recyclers</a
+              >
+              <p id="date">15 December 2025</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="nav-links">
-        <a href="#">Latest</a>
-        <a href="#">News</a>
-        <a href="#">Inspiration</a>
-        <a href="#">Insight</a>
-        <a href="#">Tips</a>
-        <a href="#">Resources</a>
-        <a href="#">Podcast</a>
-        <a href="#">Community</a>
-        <div class="last-two">
-          <a href="#">Topics</a>
-          <i class="fa-solid fa-angle-down" style="color: #000000"></i>
-        </div>
-        <div class="last-two">
-          <a href="#">Info</a>
-          <i class="fa-solid fa-angle-down" style="color: #000000"></i>
-        </div>
-      </div>
-    </nav>
+    </div>
   </body>
 </html>
